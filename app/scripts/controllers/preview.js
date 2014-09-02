@@ -21,7 +21,7 @@ PhonicsApp.controller('PreviewCtrl', function PreviewCtrl(Storage, Builder, Fold
 
     // Update progress status to "Error" is there is an error
     if (error) {
-      Storage.save('progress', 'Error!');
+      Storage.save('progress', 'Unsaved changes. Check your server connection.');
     }
   }
 
